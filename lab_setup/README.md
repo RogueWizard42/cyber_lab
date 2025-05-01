@@ -12,10 +12,10 @@
 
 - Vmnet8 (NAT) will be used for pfSense WAN
 - the 3 other NICs are set to HOST ONLY to isolate them from the scary interwebs
-- All other NICs will have DHCP switched on in Vmware (pfSense will manage this)
+- All other NICs will have DHCP switched off in Vmware (pfSense will manage this)
 
 
-![vmare nics](/screenshots/vmnet.png)
+![vmare nics](screenshots/vmnet.png)
 
 
 **Note the Settings:**
